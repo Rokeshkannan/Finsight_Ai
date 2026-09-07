@@ -1,0 +1,27 @@
+{
+  "company_name": "Sample Retail Co.",
+  "currency_or_units": "INR crore",
+  "periods": ["FY22", "FY23", "FY24"],
+  "income_statement": {
+    "revenue":            {"FY22": 1200, "FY23": 1450, "FY24": 1680},
+    "cost_of_goods_sold":  {"FY22": 780,  "FY23": 940,  "FY24": 1075},
+    "gross_profit":        {"FY22": 420,  "FY23": 510,  "FY24": 605},
+    "operating_expenses":  {"FY22": 260,  "FY23": 300,  "FY24": 335},
+    "operating_income":    {"FY22": 160,  "FY23": 210,  "FY24": 270},
+    "net_income":          {"FY22": 95,   "FY23": 130,  "FY24": 172}
+  },
+  "balance_sheet": {
+    "total_assets":         {"FY22": 980,  "FY23": 1120, "FY24": 1310},
+    "current_assets":       {"FY22": 410,  "FY23": 470,  "FY24": 560},
+    "current_liabilities":  {"FY22": 260,  "FY23": 290,  "FY24": 310},
+    "total_liabilities":    {"FY22": 520,  "FY23": 560,  "FY24": 590},
+    "total_equity":         {"FY22": 460,  "FY23": 560,  "FY24": 720},
+    "cash_and_equivalents": {"FY22": 90,   "FY23": 120,  "FY24": 175},
+    "inventory":            {"FY22": 150,  "FY23": 165,  "FY24": 178}
+  },
+  "cash_flow": {
+    "operating_cash_flow": {"FY22": 140, "FY23": 178, "FY24": 224},
+    "investing_cash_flow": {"FY22": -60, "FY23": -75, "FY24": -90},
+    "financing_cash_flow": {"FY22": -40, "FY23": -55, "FY24": -68}
+  }
+}
